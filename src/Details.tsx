@@ -34,7 +34,6 @@ const Details = ({ userData, editUserDetail }) => {
     }));
   };
 
-  // Handle changes in the title field (update editedData temporarily)
   const handleTitleChange = (e) => {
     setEditedData((prevData) => ({
       ...prevData,
