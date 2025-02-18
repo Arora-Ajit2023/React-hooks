@@ -10,7 +10,7 @@ const Details = ({ userData, editUserDetail }) => {
     body: userData.body,
     title: userData.title,
   });
-  console.log("userData", userData);
+  // console.log("userData", userData);
   let content = null;
   if (!isUserDetalClick) {
     content = (
